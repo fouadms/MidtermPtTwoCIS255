@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h3{
+            text-align: center;
+        }
+        h3 ~ p {
+            outline-style: dashed;
+            outline-color: purple;
+            text-decoration: line-through;
+            text-decoration-color: cyan;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .effects {
+            outline-style: ridge;
+            text-shadow: 4px 8px 3px white;
+            background-color: black;
+            color: orange;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .single-styled-paragraph {
+            outline-style: double;
+            text-transform: capitalize;
+            padding-block: 30px;
+            text-indent: 50px;
+            background-color: rgb(255, 229, 190);
+        }
+    </style>
+</head>
+<body>
+    <article> 
+        <h3>This is Where we are Starting</h3>
+        <p> This is siblings number one <br> 
+            This is siblings number two
+        </p>
+    </article>
+
+    <div class = "effects">
+        <h1> This text is orange with a neon glow white</h1>
+        <p> This text will also be orange with a neon glow white</p>
+    </div>
+
+    <p class="single-styled-paragraph"> This element selector will be double boxed outlined, with a background color of orange</p>
+</body>
+</html>
